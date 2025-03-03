@@ -109,11 +109,9 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="Main.vi" Type="VI" URL="../../marblemaze-balltracking/Main.vi"/>
 		<Item Name="MoveStepperTwo.vi" Type="VI" URL="../MoveStepperTwo.vi"/>
 		<Item Name="VisionBallTracking.vi" Type="VI" URL="../VisionBallTracking.vi"/>
 		<Item Name="VisionInit.vi" Type="VI" URL="../VisionInit.vi"/>
-		<Item Name="VisionWrapUpNicely.vi" Type="VI" URL="../../marblemaze-balltracking/VisionWrapUpNicely.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AI IRQ FPGA Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/IRQ/typedefs/AI IRQ FPGA Reference.ctl"/>
