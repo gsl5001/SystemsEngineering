@@ -109,7 +109,10 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="MazeEdgeTracking.vi" Type="VI" URL="../MazeEdgeTracking.vi"/>
 		<Item Name="MoveStepperTwo.vi" Type="VI" URL="../MoveStepperTwo.vi"/>
+		<Item Name="PropControl.vi" Type="VI" URL="../../../Marble Maze_Brandon/Object Detection and Tracking/Object Detector/PropControl.vi"/>
+		<Item Name="SquareXandY.vi" Type="VI" URL="../SquareXandY.vi"/>
 		<Item Name="VisionBallTracking.vi" Type="VI" URL="../VisionBallTracking.vi"/>
 		<Item Name="VisionInit.vi" Type="VI" URL="../VisionInit.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
