@@ -8,13 +8,13 @@ def process_image(image_data):
 
 def poll_image_endpoint():
     while True:
-        response = requests.get('http://localhost:8080/image')
+        response = requests.get('http://172.22.11.2:8081/image')
         if response.status_code == 200:
             return response.content
         time.sleep(5)
 
 def upload_matrix(matrix):
-    response = requests.put('http://localhost:8080/matrix', json=matrix)
+    response = requests.put('http://172.22.11.2:8081/matrix', json=matrix)
     if response.status_code == 200:
         print('Matrix uploaded successfully')
     else:
@@ -22,7 +22,7 @@ def upload_matrix(matrix):
 
 def wait_for_image_removal():
     while True:
-        response = requests.get('http://localhost:8080/image')
+        response = requests.get('http://172.22.11.2:8081/image')
         if response.status_code == 404:
             return
         time.sleep(5)
